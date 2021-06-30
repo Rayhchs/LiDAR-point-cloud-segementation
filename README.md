@@ -16,6 +16,22 @@ Here shows one of the training region:
 
 <img src="https://github.com/Rayhchs/Demo/blob/main/PC/5.jpg">
 
+## Getting Started
+
+* Clone the repository
+        
+      $ git clone https://github.com/Rayhchs/LiDAR-point-cloud-segementation.git
+        
+* For Training
+
+      $ python main.py
+      
+ Type Tornoto for Tornoto dataset; type Vaihigen for Vaihigen dataset.
+        
+* For Testing (Tornoto)
+
+      $ cd Tornoto
+      $ python predict.py
 
 ## 3D Convolution Neural Network
 
